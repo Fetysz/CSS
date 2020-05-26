@@ -1,0 +1,141 @@
+:root {
+	--color-txt-1: #aaa;
+	--color-txt-2: #ccc;
+	
+	--color-border: #777;
+	
+	--color-bg-1: #222;
+	--color-bg-2: #333;
+	--color-bg-3: #444;
+	--color-bg-4: #555;
+	--color-bg-5: #111;
+	
+	--color-btn-bg: rgba(127, 127, 127, .25)
+}
+
+.gb_sa svg, .gb_Fc svg, .gb_8c .gb_he, .gb_Rc .gb_he {
+	color: var(--color-txt-1);
+}
+
+#gb {
+	background-color: var(--color-bg-1)!important;
+}
+
+
+.frame:before,
+body {
+	background-color: var(--color-bg-3);
+}
+
+body {
+	color: var(--color-txt-2)!important;
+}
+
+.ft-icon-oval {
+	background-color: var(--color-bg-3);
+}
+
+
+
+.ls-wrap {
+	background-color: var(--color-bg-1);
+}
+
+.jfk-button-standard {
+	color: var(--color-txt-1)!important;
+}
+
+.swap.jfk-button, .swap-wrap {
+	background-color: var(--color-bg-1);
+}
+.swap:not(.jfk-button-disabled):hover,
+.swap:not(.jfk-button-disabled):active,
+.ls-wrap .sl-sugg .goog-inline-block.jfk-button:focus, .ls-wrap .tl-sugg .goog-inline-block.jfk-button:focus, .ls-wrap .sl-more:focus, .ls-wrap .tl-more:focus, .ls-wrap .lang-btn:focus-within, .ls-wrap .swap:focus,
+.ls-wrap .sl-sugg .goog-inline-block.jfk-button:hover, .ls-wrap .tl-sugg .goog-inline-block.jfk-button:hover, .ls-wrap .sl-more:hover, .ls-wrap .tl-more:hover, .ls-wrap .lang-btn:focus-within, .ls-wrap .swap:hover,
+#sl_list-search-box, #tl_list-search-box,
+.gt-spell-correct-message,
+.results-container, .result, .gt-edit, .contribute-target {
+	background-color: var(--color-bg-2);
+}
+
+.ls-wrap .swap:focus,
+.language-list,
+.language_list_sl_list, .language_list_tl_list {
+	background-color: var(--color-bg-3);
+}
+
+.header-button,
+.homepage.translate-text .input-button.text-icon,
+.homepage.translate-docs .input-button.documents-icon{
+	border-color: var(--color-border);
+}
+
+.homepage.translate-text .input-button.text-icon, 
+.homepage.translate-docs .input-button.documents-icon,
+.select-file-page .button {
+	background-color: var(--color-btn-bg);
+}
+
+.select-file-page,
+body:not(.with-lang-list) .results-container.empty,
+.orig, .source-wrap ,
+.source-input,
+.language-list-search-box,
+.language_list_section,
+.language_list_item_wrapper {
+	background: var(--color-bg-2);
+}
+
+.EHzcec {
+	background: var(--color-bg-3)!important;
+}
+
+.orig {
+	background-color: var(--color-bg-2);
+	transition: background-color 0.05s ease;
+}
+
+.orig:hover,
+.language_list_item_wrapper:hover, .language_list_item_wrapper:focus,
+.language_list_item_wrapper.item-selected {
+	background-color: var(--color-bg-3);
+}
+
+.ft-icon-txt,
+.select-file-section .choose-document-prompt,
+.header-button,
+.select-file-section .upload-filetypes-prompt,
+.gb_Tc, .gb_Uc,
+.detect_language,
+.language_list_item_language_name,
+.gt-spell-correct-message,
+#source,
+.results-container:not(.empty) .placeholder, .result-dict-wrapper .translation, .contribute-target, #st-buttons .jfk-button,
+input,
+body.EIlDfe {
+	color: var(--color-txt-1);
+}
+
+.ls-select,
+.goog-inline-block.jfk-button-checked:after {
+	border-bottom-color: var(--color-txt-1);
+}
+
+.ls-wrap .sugg-fade {
+	background: transparent;
+}
+
+.gb_Fc {
+	background-color: var(--color-bg-1);
+}
+
+.gb_Qc:not(:last-child) {
+	border-bottom-color: transparent;
+}
+
+.language_list_item_wrapper.item-selected .language_list_item {
+	color: var(--color-txt-2);
+}
+
+
+
