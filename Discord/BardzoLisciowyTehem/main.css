@@ -1,3 +1,4 @@
+//META{"name":"Bardzo Liściowy Tehem DEV","description":"Liściowy tehem, hyh","author":"Fetysz","version":"DEV","source":"https://github.com/Fetysz/Themes/tree/master/TDHK"}*//
 
 :root {
 	--accent1-lime-color: rgb(190, 247, 90);
@@ -496,6 +497,17 @@
 			transition: color 100ms ease-in-out;
 		}
 		
+			/* qUick emoji picker */
+			
+			.emojiPickerListWrapper-fz8KNK .scroller-2FKFPG {
+				background-color: var(--main2-color);
+			}
+			
+			.emojiPicker-3PwZFl {
+				background-color: var(--main2-color);
+			}
+		
+		
 		/* Nitro gift */
 		
 		.theme-dark .root-1gCeng {
@@ -530,7 +542,7 @@
 			background-color: var(--main2-color);
 		}
 		
-		.base-1x0h_U {
+		.header-ykumBX .base-1x0h_U {
 			text-align: center;
 		}
 		
@@ -581,6 +593,16 @@
 			text-align: left;
 		}
 		
+		/* Everyone popup */
+		
+		.theme-dark .everyonePopout-nEbJY3 {
+			background-color: var(--main2-color);
+		}
+		
+		.theme-dark .everyonePopout-nEbJY3 .footer-2aTx0s {
+			background-color: var(--main3-color);
+		}
+		
 	/* Settings */
 		
 		/* Left wrapper */
@@ -603,7 +625,7 @@
 		/* That shit on which you click to change tabs */
 		
 		.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
-		.themed-OHr7kt.item-PXvHYJ:hover {
+		.bd-settings-sidebar .themed-OHr7kt.item-PXvHYJ:hover {
 			background-color: rgba(var(--main1-color-rgb), .75);
 			transition: background-color 100ms ease-in-out;
 		}
@@ -715,6 +737,24 @@
 	.root-SR8cQa,
 	.body-3ND3kc {
 		background-color: var(--main2-color);
+	}
+	
+	.topSectionPlaying-1J5E4n .base-1x0h_U {
+		text-align: left!important;
+	}
+	
+	.top-28JiJ- .themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
+		padding: 0 8px;
+	}
+	
+	.top-28JiJ- .themed-OHr7kt.item-PXvHYJ {
+		margin-top: 8px;
+		margin-bottom: 8px;
+		border-radius: 16px;
+	}
+	
+	.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ {
+		border-top-color: var(--interactive-active);
 	}
 	
 	
@@ -961,6 +1001,9 @@
 			background-color: var(--main3-color)!important;
 			border-color: var(--main4-color);
 		}
+		
+		.toasts .toast.toast-success{background-color:var(--accent3-lime-color)}.toasts .toast{background-color:var(--main3-color)!important;border-color:var(--main4-color)}
+		
 
 		/* Plugins & Theme Menu */
 		
@@ -1062,16 +1105,13 @@
 		}
 
 
+	body ::selection {
+		background-color: rgba(var(--accent1-lime-color-rgb), .3);
+	}
 
-
-
-
-
-
-
-
-
-
+	img.emoji[alt*="slight_smile"] {
+		content: url('https://i.fratikbot.pl/iTTC6oD.svg');;
+	}
 
 
 
