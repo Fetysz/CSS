@@ -1112,6 +1112,10 @@
 	img.emoji[alt*="slight_smile"] {
 		content: url('https://i.fratikbot.pl/iTTC6oD.svg');;
 	}
+	
+	img.emoji[alt*="slight_smile"]:hover:active {
+		content: '';;
+	}
 
 
 
