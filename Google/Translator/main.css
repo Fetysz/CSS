@@ -23,7 +23,8 @@
 
 
 .frame:before,
-body {
+body,
+.language-list-toolbar {
 	background-color: var(--color-bg-3);
 }
 
@@ -112,7 +113,7 @@ body:not(.with-lang-list) .results-container.empty,
 #source,
 .results-container:not(.empty) .placeholder, .result-dict-wrapper .translation, .contribute-target, #st-buttons .jfk-button,
 input,
-body.EIlDfe {
+.language-list-toolbar .language-list-label {
 	color: var(--color-txt-1);
 }
 
