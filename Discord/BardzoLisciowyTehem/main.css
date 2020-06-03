@@ -1107,12 +1107,12 @@
 		background-color: rgba(var(--accent1-lime-color-rgb), .3);
 	}
 
-	img.emoji[alt*="slight_smile"] {
+	img.emoji[src="/assets/da3651e59d6006dfa5fa07ec3102d1f3.svg"] {
 		content: url('https://i.fratikbot.pl/iTTC6oD.svg');;
 	}
 	
-	img.emoji[alt*="slight_smile"]:hover:active {
-		content: '';;
+	img.emoji[src="/assets/da3651e59d6006dfa5fa07ec3102d1f3.svg"]:hover:active {
+		content: '';
 	}
 
 
