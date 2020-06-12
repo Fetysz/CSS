@@ -30,9 +30,11 @@
 }
 
 
+.form-2fGMdU:before,
 .theme-dark .option-96V44q:after,
 .scroller-1JbKMe {
-	background: none;
+	background: transparent;
+	background-color: transparent;
 }
 
 .container-PNkimc, 

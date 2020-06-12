@@ -30,9 +30,11 @@
 }
 
 
+.form-2fGMdU:before,
 .theme-dark .option-96V44q:after,
 .scroller-1JbKMe {
-	background: none;
+	background: transparent;
+	background-color: transparent;
 }
 
 .container-PNkimc, 
@@ -307,55 +309,50 @@
 	
 	/* Chat */
 	
-		.chat-3bRxxu,
-		.messages-3amgkR {
-			background-color: var(--main1-color);
-		}
-		
-		.theme-dark .form-2fGMdU:before {
-			background: none;
-		}
-	
+	.chat-3bRxxu,
+	.messages-3amgkR {
+		background-color: var(--main1-color);
+	}
 		/* Text area */
-			.scrollableContainer-2NUZem {
-				background-color: var(--main2-color);
-			}
+		.scrollableContainer-2NUZem {
+			background-color: var(--main2-color);
+		}
 	
 	/* Search WIP */
 	
 		/* Box */
 		
-			.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
-				background: var(--main1-color);
-			}
+		.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+			background: var(--main1-color);
+		}
 	
 		/* Wrapper */
 		
-			.searchHeader-1EzJGH {
-				background-color: var(--main2-color);
-			}
-			
-			.searchResultsWrap-3-pOjs {
-				background-color: var(--main2-color);
-			}
-			
-			.searchResultMessage-30QnSN.hit-1CXhXT {
-				background-color: var(--main3-color);
-				border-color: var(--main3-color);
-				box-shadow: 0 0 0 1px var(--main3-color), var(--elevation-high);
-			}
-			
-			.searchResult-2N9RV4:before {
-				background-image: linear-gradient(0deg,transparent,var(--main2-color));
-			}
-			
-			.searchResult-2N9RV4:after {
-				background-image: linear-gradient(180deg,transparent,var(--main2-color));
-			}
-			
-			.channelName-wvgELL {
-				background: transparent;
-			}
+		.searchHeader-1EzJGH {
+			background-color: var(--main2-color);
+		}
+		
+		.searchResultsWrap-3-pOjs {
+			background-color: var(--main2-color);
+		}
+		
+		.searchResultMessage-30QnSN.hit-1CXhXT {
+			background-color: var(--main3-color);
+			border-color: var(--main3-color);
+			box-shadow: 0 0 0 1px var(--main3-color), var(--elevation-high);
+		}
+		
+		.searchResult-2N9RV4:before {
+			background-image: linear-gradient(0deg,transparent,var(--main2-color));
+		}
+		
+		.searchResult-2N9RV4:after {
+			background-image: linear-gradient(180deg,transparent,var(--main2-color));
+		}
+		
+		.channelName-wvgELL {
+			background: transparent;
+		}
 	
 	/* Profile card in settings */
 	
