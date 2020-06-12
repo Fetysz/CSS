@@ -291,19 +291,19 @@
 	
 	/* Topbar */
 	
-		.container-1r6BKw.themed-ANHk51 {
-			background: var(--main2-color);
-		}
-		
-		.theme-dark .children-19S4PO:after {
-			background: none;
-		}
-		
+	.container-1r6BKw.themed-ANHk51 {
+		background: var(--main2-color);
+	}
+	
+	.children-19S4PO:after {
+		background: none;
+	}
+	
 	/* Members wrapper */
 	
-		.members-1998pB {
-			background-color: var(--main2-color);
-		}
+	.members-1998pB {
+		background-color: var(--main2-color);
+	}
 	
 	/* Chat */
 	
