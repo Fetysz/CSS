@@ -1,0 +1,33 @@
+//META{"name":"Horizontal Server list","description":"^","author":"Fetysz","authorId":"385437881667420161","version":"1.0.1","source":"https://raw.githubusercontent.com/Fetysz/CSS/master/Discord/Horizontal%20Server%20List/hsl.theme.css"}*//
+
+
+.guilds-1SWlCJ {
+    top: 946px;
+    right: 0;
+    bottom: 0;
+    left: -72px;
+    transform: rotate(-90deg);
+    transform-origin: right top;
+}
+
+.wrapper-1Rf91z {
+    width: 72px;
+    height: 1920px;
+}
+
+.base-3dtUhz, .sidebar-2K8pFh {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 72px;
+}
+
+.wrapper-25eVIn {
+    transform: rotate(90deg)!important;
+}
+
+.upperBadge-2XnnGB,
+.lowerBadge-29hYVK {
+    right: 0;
+    bottom: 0;
+}
