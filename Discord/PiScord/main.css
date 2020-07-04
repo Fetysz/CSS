@@ -109,10 +109,10 @@
 	#app-mount {
 		background: var(--background); 
 		background-position: center; 
-		background-size: cover;
+		backg-round-size: cover;
 		animation: duda 300s infinite;
 		animation-timing-function: ease;
-	}
+
 
 	#app-mount:before {
 		content: url('https://i.fratikbot.pl/vVBXLY9.svg');
