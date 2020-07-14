@@ -52,9 +52,16 @@
 /* Background image */
 
 	#app-mount {
-		background-image: var(--background); 
+		background: var(--background); 
 		background-position: center; 
 		background-size: cover;
+	}
+
+	#app-mount:before {
+		content: url('https://i.fratikbot.pl/vVBXLY9.svg');
+		top: 0;
+		right: 0;
+		position: absolute;
 	}
 	
 	.app-1q1i1E, .typeWindows-1za-n7 {
@@ -86,8 +93,6 @@
 	.note-450gs3 {
 		color: #ccc
 	}
-
-	
 
 /* Chat */
 
@@ -437,7 +442,7 @@
 	.embedFull-2tM8-- {
 		background: var(--transparency-2);
 		border-radius: 8px;
-		border-right: 4px solid var(--background-tertiary);
+		border-right: 4px solid;
 	}
 
 
@@ -1199,7 +1204,6 @@
 
 	.notice-2FJMB4 {
 		border-radius: 0;
-		margin-left: 1px;
 	}
 
 	.noticeDanger-7u-yT9 {
@@ -1260,10 +1264,10 @@
 
 	/* Counter */
 
-		.channelTextArea-rNsIhG .charCounter-7fw40k.charcounter.normal {
+		.channelTextArea-rNsIhG .charCounter-7fw40k {
 			background: var(--transparency-2);
 			right: .5em;
-			top: 3.2em;
+			bottom: -1.2em;
 			bottom: auto;
 			padding: 1px 4px 2px 4px;
 			border-radius: 0 0 4px 4px;
