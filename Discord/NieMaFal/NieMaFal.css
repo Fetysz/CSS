@@ -26,6 +26,7 @@
 	--spoiler-uncovered: rgba(95, 95, 95, .6);
 
 	--conn-fb: rgba(53, 80, 137, .85);
+	--conn-github: rgba(25, 23, 23, .85);
 	--conn-reddit: rgba(255, 69, 0, .85);
 	--conn-spotify: rgba(29, 185, 84, .85);
 	--conn-steam: rgba(24, 35, 50, .85);
@@ -55,13 +56,6 @@
 		background: var(--background); 
 		background-position: center; 
 		background-size: cover;
-	}
-
-	#app-mount:before {
-		content: url('https://i.fratikbot.pl/vVBXLY9.svg');
-		top: 0;
-		right: 0;
-		position: absolute;
 	}
 	
 	.app-1q1i1E, .typeWindows-1za-n7 {
@@ -304,10 +298,22 @@
 	.membersGroup-v9BXpm {
 		text-align: center;
 	}
+
+	span[class*="roleColor"]::after {
+		content: "";
+		background: linear-gradient(to right, transparent, currentColor 40%);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		opacity: .1;
+		left: 0;
+		top: 0;
+		border-radius: 10px;
+	}	  
 	
 /* Left sidebar */
 
-	.container-PNkimc .scrollerWrap-2lJEkd {
+	.container-PNkimc .scrollerBase-289Jih {
 		border-left: 2px solid var(--transparency-2);
 		border-top: 2px solid var(--transparency-2);
 	}
@@ -349,7 +355,7 @@
 		}
 
 		.wrapper-1ucjTd:not([class*="modeSelected-1zApJ"]):hover .content-3at_AU {
-			background: var(--transparency-4);;
+			background: var(--transparency-4);
 			color: #fff;
 		}
 
@@ -769,6 +775,10 @@
 				background-color: var(--conn-fb)!important;
 			}
 
+			.connection-1fbD7X[style*="background-color: rgb(25, 23, 23);"] {
+				background-color: var(--conn-github)!important;
+			}
+
 			.connection-1fbD7X[style*="background-color: rgb(255, 69, 0);"] {
 				background-color: var(--conn-reddit)!important;
 			}
@@ -809,6 +819,29 @@
 		}
 
 	/* User profile */
+
+		.role-2irmRk{
+			position: relative;
+			overflow: hidden;
+			z-index: 1;
+			border: none;
+			padding: 5px;
+		}
+		.roleCircle-3xAZ1j::before{
+			content: "";
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height: 100%;
+			background: inherit;
+			opacity: .2;
+			z-index: -1;
+			pointer-events: none;
+		}
+		.footer-1fjuF6{
+			border-top: none;
+		}
 		
 		/* *smol* */
 			
@@ -849,20 +882,22 @@
 						text-align: center;
 					}
 
+					.note-QfFU8y,
 					.note-3HfJZ5 {
 						background: var(--transparency-4);
 						border-radius: 6px;
 						margin: 0 8px;
 					}
-
-					.note-3kmerW textarea {
+					
+					.note-QfFU8y textarea,
+					.note-3HfJZ5 textarea {
 						color: #999;
 						text-align: center;
 						padding: 4px 8px;
-						min-height: 48px;
+						height: 25px!important;
 					}
 
-					.note-3kmerW textarea::placeholder {
+					.note-3HfJZ5 textarea::placeholder {
 						color: #777;
 						text-align: center;
 					}
